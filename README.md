@@ -44,16 +44,6 @@ Foi possivel aprender de forma **teórica e prática** os fundamentos da **comun
 
 ---
 
-## 🧱 Estrutura do Projeto
-glrtech-sales/
-├── auth-api/ # API de autenticação (Node.js + PostgreSQL)
-├── product-api/ # API de produtos (Java 11 + Spring Boot)
-├── sales-api/ # API de vendas (Node.js + MongoDB)
-├── docker-compose.yml # Orquestração de serviços em containers
-└── README.md
-
----
-
 ## 🔗 Comunicação entre Serviços
 
 | Tipo        | Ferramenta       | APIs Envolvidas       |
