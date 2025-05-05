@@ -1,0 +1,80 @@
+# ========================================
+# BACKEND - Java/Spring (Maven/Gradle)
+# ========================================
+
+# Compiled Java classes
+*.class
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+gradle-app.setting
+gradle-app.properties
+
+# Logs
+*.log
+*.out
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# ========================================
+# FRONTEND - Node.js / JavaScript / TypeScript
+# ========================================
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Dist/build folders
+dist/
+build/
+.tmp/
+.cache/
+.next/
+coverage/
+
+# Environment files
+.env
+.env.*.local
+*.local
+
+# VS Code
+.vscode/
+
+# ========================================
+# Docker & OS files
+# ========================================
+*.pid
+*.seed
+*.swp
+.DS_Store
+Thumbs.db
+
+# Docker volumes/cache
+docker-compose.override.yml
+*.tar
+**/logs/
+**/.docker/
