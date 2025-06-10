@@ -1,12 +1,12 @@
-# 🧩 Curso de Microsserviços com Java, Node.js, Docker, RabbitMQ e AWS
+# 🧩 Desenvolvimento de Microsserviços com Java, Node.js, Docker, RabbitMQ e AWS
 
-Bem-vindo ao repositório do **Curso de Microsserviços**, onde foi desenvolvida uma arquitetura real com múltiplas APIs em diferentes linguagens e bancos, explorando **comunicação síncrona e assíncrona**, containers Docker e deploy na **AWS**.
+Bem-vindo ao repositório **glrtech-sales**, onde está sendo desenvolvida uma arquitetura real com múltiplas APIs em diferentes linguagens e bancos, explorando **comunicação síncrona e assíncrona**, containers Docker e deploy na **AWS**.
 
 ---
 
 ## 🚀 Neste projeto
 
-Foi possivel aprender de forma **teórica e prática** os fundamentos da **comunicação entre microsserviços**, utilizando diferentes abordagens:
+Estou implementando de forma os fundamentos da **comunicação entre microsserviços**, utilizando diferentes abordagens:
 
 - Comunicação **síncrona** via REST HTTP.
 - Comunicação **assíncrona** com filas de mensagens (RabbitMQ).
