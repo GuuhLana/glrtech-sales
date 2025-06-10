@@ -6,7 +6,7 @@ Bem-vindo ao repositório **glrtech-sales**, onde está sendo desenvolvida uma a
 
 ## 🚀 Neste projeto
 
-Estou implementando de forma os fundamentos da **comunicação entre microsserviços**, utilizando diferentes abordagens:
+Estou implementando os fundamentos da **comunicação entre microsserviços**, utilizando diferentes abordagens:
 
 - Comunicação **síncrona** via REST HTTP.
 - Comunicação **assíncrona** com filas de mensagens (RabbitMQ).
