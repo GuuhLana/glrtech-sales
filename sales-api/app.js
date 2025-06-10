@@ -17,5 +17,5 @@ function getOkResponse() {
 }
 
 app.listen(PORT, () => {
-  console.info(`SERVIDOR INICIADO NA PORTA ${PORT}`);
+  console.info(`Server started at port: ${PORT}`);
 });
