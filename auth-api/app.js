@@ -1,17 +1,16 @@
 import express from "express";
-
-// import { createInitialData } from "./scr/config/db/initialData.js";
-// import userRoutes from "./scr/modules/user/routes/UserRoutes.js";
-// import tracing from "./scr/config/tracing.js";
+import { createInitialData } from "./src/config/db/initialData.js";
+import userRoutes from "./src/modules/user/routes/UserRoutes.js"
+import tracing from "./src/config/tracing.js"
 
 const app = express();
 const env = process.env;
 const PORT = env.PORT || 8080;
-// const CONTAINER_ENV = "container";
+const CONTAINER_ENV = "container";
 
-// app.get("/", (req, res) => {
-//   return res.status(200).json(getOkResponse());
-// });
+app.get("/", (req, res) => {
+  return res.status(200).json(getOkResponse());
+});
 
 app.get("/api/status", (req, res) => {
   return res.status(200).json(getOkResponse());
@@ -25,24 +24,24 @@ function getOkResponse() {
   }
 }
 
-// app.use(express.json());
+app.use(express.json());
 
-// startApplication();
+startApplication();
 
-// function startApplication() {
-//   if (env.NODE_ENV !== CONTAINER_ENV) {
-//     createInitialData();
-//   }
-// }
+function startApplication() {
+  if (env.NODE_ENV !== CONTAINER_ENV) {
+    createInitialData();
+  }
+}
 
-// app.get("/api/initial-data", (req, res) => {
-//   createInitialData();
-//   return res.json({ message: "Data created." });
-// });
+app.get("/api/initial-data", (req, res) => {
+  createInitialData();
+  return res.json({ message: "Data created." });
+});
 
-// app.use(tracing);
-// app.use(userRoutes);
+app.use(tracing);
+app.use(userRoutes);
 
 app.listen(PORT, () => {
-  console.info(`SERVIDOR INICIADO NA PORTA ${PORT}`);
+  console.info(`Server started successfully at port ${PORT}`);
 });
